@@ -25,12 +25,9 @@ header {
     color: white;
     position: relative;
     height: 100px;
-  
-   
 }
 
 .logo-container {
-    flex: 1; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,31 +38,39 @@ header {
 }
 
 nav {
-    flex: 2; 
     display: flex;
     justify-content: center;
     gap: 1rem;
 }
 
-nav a{
+nav a {
     color: #f4f4f4;
-    text-decoration: dashed;
+    text-decoration: none;
     text-align: center;
 }
 
 nav ul {
-    display: inline-block;
- 
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
+nav ul li {
+    margin-left: 2rem;
+}
 
-header a{
-     text-align: center;
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header a {
+    text-align: center;
 }
 
 header img {
     height: 80px;
-   
 }
 
 header h1 {
@@ -75,6 +80,7 @@ header h1 {
     font-size: 2.5rem;
     color: white;
 }
+
 .company-info {
     text-align: center;
 }
@@ -102,9 +108,6 @@ header h1 {
 .employee-section figure {
     text-align: center;
 }
-
-
-
 
 .form-container {
     display: flex;
@@ -163,23 +166,6 @@ button {
 
 button:hover {
     background-color: #0056b3;
-}
-
-
-nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin-left: 2rem;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
 }
 
 .hero {
@@ -265,7 +251,3 @@ footer {
 .sociallinks img {
     height: 24px;
 }
-
-/*teste 1 */
-
-
