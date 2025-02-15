@@ -19,13 +19,53 @@ header {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
-    padding: 2rem;
+    justify-content: space-between;
+    padding: 1rem 2rem;
     background-color: var(--primary-color);
     color: white;
+    position: relative;
+    height: 100px;
+  
+   
+}
+
+.logo-container {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 70px; 
+}
+
+nav {
+    flex: 2; 
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a{
+    color: #f4f4f4;
+    text-decoration: dashed;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+ 
+}
+
+
+header a{
+     text-align: center;
 }
 
 header img {
     height: 80px;
+   
 }
 
 header h1 {
